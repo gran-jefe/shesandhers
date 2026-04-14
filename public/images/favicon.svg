@@ -1,0 +1,17 @@
+<svg viewBox="0 0 64 64" width="64" height="64" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>She's &amp; Hers Beauty Palace — Favicon</title>
+  <rect width="64" height="64" rx="14" fill="#2E1025"/>
+  <rect width="64" height="64" rx="14" fill="none" stroke="#8B1A6B" stroke-width="2.5"/>
+  <defs>
+    <linearGradient id="sil-fav" x1="0%" y1="0%" x2="20%" y2="100%">
+      <stop offset="0%" stop-color="#8B1A6B"/>
+      <stop offset="100%" stop-color="#C4527A"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(12, 6) scale(0.84)">
+    <path d="M26,2 C32,0 40,2 42,9 C44,15 40,11 37,16 C42,13 46,16 44,23 C42,18 38,20 37,26 C40,23 43,25 41,32 C39,27 35,28 34,34 L28,34 C29,26 26,22 24,15 C22,8 19,5 26,2 Z" fill="url(#sil-fav)"/>
+    <path d="M14,14 C14,6 20,2 26,3 C32,4 36,9 35,17 C34,24 30,29 24,29 C18,29 14,22 14,14 Z" fill="url(#sil-fav)"/>
+    <rect x="20" y="28" width="8" height="7" rx="3" fill="url(#sil-fav)"/>
+    <path d="M6,35 C10,32 16,31 20,32 C24,32 29,31 34,35 C36,37 34,42 32,42 L8,42 C6,42 4,37 6,35 Z" fill="url(#sil-fav)"/>
+  </g>
+</svg>

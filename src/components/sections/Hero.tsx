@@ -44,7 +44,7 @@ export function Hero() {
             {/* Headline */}
             <motion.div variants={fadeUp}>
               <h1 className="font-playfair font-700 text-5xl md:text-6xl lg:text-7xl leading-tight text-sh-base dark:text-white">
-                We don't just
+                We don&apos;t just
                 <br />
                 sell beauty.
                 <br />
@@ -102,35 +102,53 @@ export function Hero() {
           >
             <div className="relative">
               {/* Large decorative circle */}
-              <div className="w-full aspect-square rounded-full border-2 border-sh-plum/20 bg-sh-petal dark:bg-sh-deep flex items-center justify-center animate-float relative overflow-hidden">
+              <div className="w-full aspect-square rounded-full border-2 border-sh-plum/20 bg-sh-petal dark:bg-sh-deep flex items-center justify-center relative overflow-hidden">
                 {/* Floating pills */}
-                <div className="absolute top-12 left-8 bg-sh-plum/10 dark:bg-sh-plum/20 rounded-full px-4 py-2">
+                <motion.div
+                  animate={{ x: [-40, 50, -30, 45, -40], y: [30, -50, 40, -35, 30] }}
+                  transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+                  className="absolute top-1/4 left-1/3 bg-sh-plum/30 dark:bg-sh-plum/40 rounded-full px-5 py-3 shadow-lg backdrop-blur-sm border border-sh-plum/50"
+                >
                   <span className="font-playfair text-sm font-600 text-sh-plum dark:text-sh-rose">
                     Hair
                   </span>
-                </div>
-                <div className="absolute top-20 right-6 bg-sh-gold/10 dark:bg-sh-gold/20 rounded-full px-4 py-2">
+                </motion.div>
+                <motion.div
+                  animate={{ x: [50, -40, 55, -45, 50], y: [-45, 35, -40, 50, -45] }}
+                  transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+                  className="absolute top-1/3 right-1/4 bg-sh-gold/30 dark:bg-sh-gold/40 rounded-full px-5 py-3 shadow-lg backdrop-blur-sm border border-sh-gold/50"
+                >
                   <span className="font-playfair text-sm font-600 text-sh-gold">
                     Wigs
                   </span>
-                </div>
-                <div className="absolute bottom-16 left-4 bg-sh-plum/10 dark:bg-sh-plum/20 rounded-full px-4 py-2">
+                </motion.div>
+                <motion.div
+                  animate={{ x: [-55, 40, -35, 50, -55], y: [-30, -45, 50, -35, -30] }}
+                  transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+                  className="absolute bottom-1/4 left-1/4 bg-sh-plum/30 dark:bg-sh-plum/40 rounded-full px-5 py-3 shadow-lg backdrop-blur-sm border border-sh-plum/50"
+                >
                   <span className="font-playfair text-sm font-600 text-sh-plum dark:text-sh-rose">
                     Makeup
                   </span>
-                </div>
-                <div className="absolute bottom-12 right-12 bg-sh-gold/10 dark:bg-sh-gold/20 rounded-full px-4 py-2">
+                </motion.div>
+                <motion.div
+                  animate={{ x: [45, -50, 35, -55, 45], y: [50, 30, -50, 40, 50] }}
+                  transition={{ duration: 7.5, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
+                  className="absolute bottom-1/3 right-1/3 bg-sh-gold/30 dark:bg-sh-gold/40 rounded-full px-5 py-3 shadow-lg backdrop-blur-sm border border-sh-gold/50"
+                >
                   <span className="font-playfair text-sm font-600 text-sh-gold">
                     Jewellery
                   </span>
-                </div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <span className="font-playfair text-sh-plum dark:text-sh-rose text-3xl font-700">
-                      ✨
-                    </span>
-                  </div>
-                </div>
+                </motion.div>
+                <motion.div
+                  animate={{ y: [0, -20, 0], scale: [1, 1.2, 1] }}
+                  transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                  className="absolute inset-0 flex items-center justify-center"
+                >
+                  <span className="font-playfair text-sh-plum dark:text-sh-rose text-5xl font-700">
+                    ✨
+                  </span>
+                </motion.div>
               </div>
             </div>
           </motion.div>

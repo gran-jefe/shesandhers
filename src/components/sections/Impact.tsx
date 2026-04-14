@@ -25,8 +25,8 @@ export function Impact() {
         backgroundAttachment: 'fixed',
       }}
     >
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-sh-base/85" />
+      {/* Blurred background overlay */}
+      <div className="absolute inset-0 bg-sh-base/85" style={{ backdropFilter: 'blur(8px)' }} />
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         {/* Quote */}
