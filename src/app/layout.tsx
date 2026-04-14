@@ -24,6 +24,14 @@ export const metadata: Metadata = {
     title: "She's & Hers Beauty Palace",
     description: "We don't just sell beauty. We sell confidence.",
     type: 'website',
+    images: [
+      {
+        url: '/images/banner.jpg',
+        width: 1200,
+        height: 630,
+        alt: "She's & Hers Beauty Palace",
+      }
+    ],
   },
   icons: { icon: '/favicon.svg', apple: '/favicon.svg' },
 };
