@@ -4,36 +4,43 @@ import "./globals.css";
 import { Providers } from "./providers";
 
 const playfair = Playfair_Display({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800'],
-  style: ['normal', 'italic'],
-  variable: '--font-playfair',
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  style: ["normal", "italic"],
+  variable: "--font-playfair",
 });
 
 const lato = Lato({
-  subsets: ['latin'],
-  weight: ['300', '400', '700'],
-  variable: '--font-lato',
+  subsets: ["latin"],
+  weight: ["300", "400", "700"],
+  variable: "--font-lato",
 });
 
 export const metadata: Metadata = {
   title: "She's & Hers — Beauty Palace | Uyo, Nigeria",
-  description: "She's & Hers Beauty Palace — wigs, weave-on, hair accessories, makeup, cosmetics, jewellery, bags and more. Based in Uyo, Nigeria. Serving 3,000+ clients.",
-  keywords: ["wigs Nigeria", "hair accessories Uyo", "makeup Nigeria", "jewellery Uyo", "beauty shop Nigeria"],
+  description:
+    "She's & Hers Beauty Palace — wigs, weave-on, hair accessories, makeup, cosmetics, Jewelry, bags and more. Based in Uyo, Nigeria. Serving 3,000+ clients.",
+  keywords: [
+    "wigs Nigeria",
+    "hair accessories Uyo",
+    "makeup Nigeria",
+    "Jewelry Uyo",
+    "beauty shop Nigeria",
+  ],
   openGraph: {
     title: "She's & Hers Beauty Palace",
     description: "We don't just sell beauty. We sell confidence.",
-    type: 'website',
+    type: "website",
     images: [
       {
-        url: '/images/banner.jpg',
+        url: "/images/banner.jpg",
         width: 1200,
         height: 630,
         alt: "She's & Hers Beauty Palace",
-      }
+      },
     ],
   },
-  icons: { icon: '/favicon.svg', apple: '/favicon.svg' },
+  icons: { icon: "/favicon.svg", apple: "/favicon.svg" },
 };
 
 export default function RootLayout({

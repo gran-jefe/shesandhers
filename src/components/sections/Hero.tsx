@@ -60,7 +60,7 @@ export function Hero() {
               variants={fadeUp}
               className="font-lato font-light text-sh-muted dark:text-sh-rose text-lg"
             >
-              Hair · Wigs · Accessories · Makeup · Jewellery · and more
+              Hair · Wigs · Accessories · Makeup · Jewelry · and more
             </motion.p>
 
             {/* Buttons */}
@@ -104,8 +104,15 @@ export function Hero() {
               <div className="w-full aspect-square rounded-full border-2 border-sh-plum/20 bg-sh-petal dark:bg-sh-deep flex items-center justify-center relative overflow-hidden">
                 {/* Floating pills */}
                 <motion.div
-                  animate={{ x: [-40, 50, -30, 45, -40], y: [30, -50, 40, -35, 30] }}
-                  transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+                  animate={{
+                    x: [-40, 50, -30, 45, -40],
+                    y: [30, -50, 40, -35, 30],
+                  }}
+                  transition={{
+                    duration: 6,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                  }}
                   className="absolute top-1/4 left-1/3 bg-sh-plum/30 dark:bg-sh-plum/40 rounded-full px-5 py-3 shadow-lg backdrop-blur-sm border border-sh-plum/50"
                 >
                   <span className="font-playfair text-sm font-600 text-sh-plum dark:text-sh-rose">
@@ -113,8 +120,16 @@ export function Hero() {
                   </span>
                 </motion.div>
                 <motion.div
-                  animate={{ x: [50, -40, 55, -45, 50], y: [-45, 35, -40, 50, -45] }}
-                  transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+                  animate={{
+                    x: [50, -40, 55, -45, 50],
+                    y: [-45, 35, -40, 50, -45],
+                  }}
+                  transition={{
+                    duration: 7,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                    delay: 0.5,
+                  }}
                   className="absolute top-1/3 right-1/4 bg-sh-gold/30 dark:bg-sh-gold/40 rounded-full px-5 py-3 shadow-lg backdrop-blur-sm border border-sh-gold/50"
                 >
                   <span className="font-playfair text-sm font-600 text-sh-gold">
@@ -122,8 +137,16 @@ export function Hero() {
                   </span>
                 </motion.div>
                 <motion.div
-                  animate={{ x: [-55, 40, -35, 50, -55], y: [-30, -45, 50, -35, -30] }}
-                  transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+                  animate={{
+                    x: [-55, 40, -35, 50, -55],
+                    y: [-30, -45, 50, -35, -30],
+                  }}
+                  transition={{
+                    duration: 6.5,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                    delay: 1,
+                  }}
                   className="absolute bottom-1/4 left-1/4 bg-sh-plum/30 dark:bg-sh-plum/40 rounded-full px-5 py-3 shadow-lg backdrop-blur-sm border border-sh-plum/50"
                 >
                   <span className="font-playfair text-sm font-600 text-sh-plum dark:text-sh-rose">
@@ -131,17 +154,29 @@ export function Hero() {
                   </span>
                 </motion.div>
                 <motion.div
-                  animate={{ x: [45, -50, 35, -55, 45], y: [50, 30, -50, 40, 50] }}
-                  transition={{ duration: 7.5, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
+                  animate={{
+                    x: [45, -50, 35, -55, 45],
+                    y: [50, 30, -50, 40, 50],
+                  }}
+                  transition={{
+                    duration: 7.5,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                    delay: 1.5,
+                  }}
                   className="absolute bottom-1/3 right-1/3 bg-sh-gold/30 dark:bg-sh-gold/40 rounded-full px-5 py-3 shadow-lg backdrop-blur-sm border border-sh-gold/50"
                 >
                   <span className="font-playfair text-sm font-600 text-sh-gold">
-                    Jewellery
+                    Jewelry
                   </span>
                 </motion.div>
                 <motion.div
                   animate={{ y: [0, -20, 0], scale: [1, 1.2, 1] }}
-                  transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                  transition={{
+                    duration: 3,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                  }}
                   className="absolute inset-0 flex items-center justify-center"
                 >
                   <span className="font-playfair text-sh-plum dark:text-sh-rose text-5xl font-700">
