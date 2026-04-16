@@ -57,7 +57,7 @@ export function About() {
               variants={slideLeft}
               className="font-playfair font-700 text-4xl md:text-5xl text-sh-base dark:text-white"
             >
-              From a single idea to a trusted name.
+              This is about us
             </motion.h2>
 
             <motion.div variants={slideLeft} className="flex">
@@ -69,21 +69,33 @@ export function About() {
               className="space-y-4 text-sh-muted dark:text-sh-rose font-lato font-light leading-relaxed"
             >
               <p>
-                She's & Hers is your trusted beauty destination for everything
-                you need to look and feel your best. We offer a carefully
-                curated selection of wigs, weave-on, hair accessories, makeup,
-                jewellery, bags, wrist-watches, and sunglasses.
+                Through <span className="italic">She's & Hers</span>, We are
+                redefining beauty and confidence in women, while building a
+                business that creates economic opportunity and impact.
               </p>
               <p>
-                What sets us apart is our commitment to more than just products.
-                We believe beauty is about confidence — and confidence is about
-                knowing you're supported by a brand that cares about you and
-                your community.
+                From a single idea, we have grown She's & Hers into a trusted
+                name in <span className="italic">hair, accessories, makeup, and Jewelry</span>.
+                Over the years, we've served 3000+ clients, expanded to
+                online/physical locations.
               </p>
               <p>
-                Every purchase supports local artisans, employs women in our
-                community, and contributes to creating economic opportunity
-                right here in Uyo, Nigeria.
+                We directly employ women and young women, and partner with local
+                suppliers and artisans, keeping value in our local community,
+                here in Uyo Nigeria.
+              </p>
+              <p>
+                Our impact goes beyond products. We don't just sell hairs,
+                makeup, and Jewelry — we sell confidence.
+              </p>
+              <p>
+                She's & Hers proves that beauty is business, and business is
+                ministry.
+              </p>
+              <p>
+                We are not just creating looks, — We are creating livelihoods
+                and legacy and have proven that a woman-owned brand can set
+                industry standards for excellence and impact.
               </p>
             </motion.div>
 

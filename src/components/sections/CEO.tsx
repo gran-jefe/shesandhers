@@ -35,38 +35,43 @@ export function CEO() {
 
             {/* CEO Statement */}
             <motion.div variants={fadeUp} className="space-y-6">
-              <p className="font-playfair italic text-white text-lg md:text-xl leading-relaxed">
-                Through She's & Hers, we are redefining beauty and confidence in
-                women, while building a business that creates economic
-                opportunity and impact.
-              </p>
+              <h3 className="font-playfair font-700 text-white text-2xl md:text-3xl">
+                Our Story – She's & Hers
+              </h3>
 
               <p className="font-playfair italic text-white text-lg md:text-xl leading-relaxed">
-                From a single idea, we have grown She's & Hers into a trusted
-                name in hair, accessories, makeup, and Jewelry. Over the years,
-                we've served 3,000+ clients and expanded to online and physical
-                locations across Nigeria.
-              </p>
-
-              <p className="font-playfair italic text-white text-lg md:text-xl leading-relaxed">
-                We directly employ women and young women, and partner with local
-                suppliers and artisans, keeping value in our local community
-                here in Uyo, Nigeria.
-              </p>
-
-              <p className="font-playfair italic text-white text-lg md:text-xl leading-relaxed">
-                Our impact goes beyond products. We don't just sell hairs,
-                makeup, and Jewelry — we sell confidence. She's & Hers proves
-                that{" "}
+                She's & Hers was born from one simple truth:{" "}
                 <span className="text-sh-gold">
-                  beauty is business, and business is ministry.
+                  when a woman feels beautiful, she becomes bold.
                 </span>
               </p>
 
-              <p className="font-playfair italic text-white text-lg md:text-xl leading-relaxed">
-                We are not just creating looks — we are creating livelihoods and
-                legacy. We've proven that a woman-owned brand can set industry
-                standards for excellence and impact.
+              <p className="font-lato text-white text-lg leading-relaxed">
+                We started with wigs and weave-ons because we were tired of
+                watching women dim their light over bad hair days. We added
+                makeup, jewelry, bags, and sunglasses because confidence is{" "}
+                <span className="font-bold">head-to-toe!</span>
+              </p>
+
+              <p className="font-lato text-white text-lg leading-relaxed">
+                We don't just sell beauty products. We sell confidence that comes
+                with the feeling you get when you catch your reflection and
+                think,{" "}
+                <span className="italic">"There she is."</span>
+              </p>
+
+              <p className="font-lato text-white text-lg leading-relaxed">
+                From Uyo, Nigeria to everywhere, She's & Hers exists for every
+                woman who's done shrinking. For the student, the CEO, the mom,
+                the dreamer, every woman!
+              </p>
+
+              <p className="font-lato text-white text-lg leading-relaxed">
+                This isn't about changing you. It's about revealing you.
+              </p>
+
+              <p className="font-playfair italic text-sh-gold text-lg md:text-xl font-600">
+                She's & Hers. For you. For the she and everything hers...
               </p>
             </motion.div>
 
