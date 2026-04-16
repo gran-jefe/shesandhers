@@ -36,24 +36,37 @@ export function CEO() {
             {/* CEO Statement */}
             <motion.div variants={fadeUp} className="space-y-6">
               <p className="font-playfair italic text-white text-lg md:text-xl leading-relaxed">
-                Through She's & Hers, I am redefining beauty and confidence in
+                Through She's & Hers, we are redefining beauty and confidence in
                 women, while building a business that creates economic
                 opportunity and impact.
               </p>
 
               <p className="font-playfair italic text-white text-lg md:text-xl leading-relaxed">
-                From a single idea, I have grown She's & Hers into a trusted
+                From a single idea, we have grown She's & Hers into a trusted
                 name in hair, accessories, makeup, and Jewelry. Over the years,
-                we've served 3,000+ clients, expanded to online and physical
-                locations, and directly employed women and young women.
+                we've served 3,000+ clients and expanded to online and physical
+                locations across Nigeria.
               </p>
 
               <p className="font-playfair italic text-white text-lg md:text-xl leading-relaxed">
-                We don't just sell hairs, makeup, and Jewelry — we sell
-                confidence. She's & Hers proves that{" "}
+                We directly employ women and young women, and partner with local
+                suppliers and artisans, keeping value in our local community
+                here in Uyo, Nigeria.
+              </p>
+
+              <p className="font-playfair italic text-white text-lg md:text-xl leading-relaxed">
+                Our impact goes beyond products. We don't just sell hairs,
+                makeup, and Jewelry — we sell confidence. She's & Hers proves
+                that{" "}
                 <span className="text-sh-gold">
                   beauty is business, and business is ministry.
                 </span>
+              </p>
+
+              <p className="font-playfair italic text-white text-lg md:text-xl leading-relaxed">
+                We are not just creating looks — we are creating livelihoods and
+                legacy. We've proven that a woman-owned brand can set industry
+                standards for excellence and impact.
               </p>
             </motion.div>
 
@@ -80,7 +93,7 @@ export function CEO() {
             transition={{ duration: 0.7, ease: "easeOut" }}
             className="flex items-center justify-center"
           >
-            <div className="w-full max-w-sm aspect-square rounded-2xl overflow-hidden ring-2 ring-sh-plum/40 bg-sh-deep flex items-center justify-center">
+            <div className="w-full max-w-xl aspect-square rounded-2xl overflow-hidden ring-2 ring-sh-plum/40 bg-sh-deep flex items-center justify-center">
               <img
                 src="/images/ceo.jpg"
                 alt="Dr. Sheila Charles, CEO"

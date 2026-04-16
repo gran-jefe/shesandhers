@@ -69,30 +69,21 @@ export function About() {
               className="space-y-4 text-sh-muted dark:text-sh-rose font-lato font-light leading-relaxed"
             >
               <p>
-                Through She's & Hers, we are redefining beauty and confidence in
-                women, while building a business that creates economic
-                opportunity and impact.
+                She's & Hers is your trusted beauty destination for everything
+                you need to look and feel your best. We offer a carefully
+                curated selection of wigs, weave-on, hair accessories, makeup,
+                jewellery, bags, wrist-watches, and sunglasses.
               </p>
               <p>
-                From a single idea, we have grown She's & Hers into a trusted
-                name in hair, accessories, makeup, and Jewelry. Over the years,
-                we've served 3,000+ clients and expanded to online and physical
-                locations across Nigeria.
+                What sets us apart is our commitment to more than just products.
+                We believe beauty is about confidence — and confidence is about
+                knowing you're supported by a brand that cares about you and
+                your community.
               </p>
               <p>
-                We directly employ women and young women, and partner with local
-                suppliers and artisans, keeping value in our local community
-                here in Uyo, Nigeria.
-              </p>
-              <p>
-                Our impact goes beyond products. We don't just sell hairs,
-                makeup, and Jewelry — we sell confidence. She's & Hers proves
-                that beauty is business, and business is ministry.
-              </p>
-              <p>
-                We are not just creating looks — we are creating livelihoods and
-                legacy. We've proven that a woman-owned brand can set industry
-                standards for excellence and impact.
+                Every purchase supports local artisans, employs women in our
+                community, and contributes to creating economic opportunity
+                right here in Uyo, Nigeria.
               </p>
             </motion.div>
 
